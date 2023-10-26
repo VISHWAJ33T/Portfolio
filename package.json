@@ -17,6 +17,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@iconify/react": "^4.0.0",
+    "@vercel/analytics": "^1.1.1",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.1",
     "framer-motion": "^7.6.5",

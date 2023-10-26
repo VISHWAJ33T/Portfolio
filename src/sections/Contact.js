@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import toast, { Toaster, ToastBar } from 'react-hot-toast';
+import toast, { Toaster } from 'react-hot-toast';
+// import toast, { Toaster, ToastBar } from 'react-hot-toast';
 // components
 import Iconify from '../components/Iconify';
 import SocialLinks from '../components/social/SocialLinks';

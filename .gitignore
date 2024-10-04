@@ -24,6 +24,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
 
 # local env files
 .env
@@ -39,3 +40,13 @@ yarn-error.log*
 .netlify
 
 _static
+# typescript
+*.tsbuildinfo
+
+
+# Contentlayer
+.contentlayer
+
+public/*.xml
+public/**/*/raw.png
+prisma/migrations

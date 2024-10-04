@@ -39,3 +39,4 @@ yarn-error.log*
 .netlify
 
 _static
+routes.txt

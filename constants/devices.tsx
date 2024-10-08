@@ -7,12 +7,12 @@ export const PAIR_DEVICES: Record<
 > = {
   Computer: {
     icon: <Laptop className={cn('size-6')} />,
-    model: 'Macbook Air',
-    id: 'bonabrian-macbook-air',
+    model: 'Acer Aspire 7',
+    id: 'vishwajeet-pc',
   },
   Smartphone: {
     icon: <Smartphone className={cn('size-6')} />,
-    model: 'iPhone 11',
-    id: 'bonabrian-iphone',
+    model: 'Redmi 9',
+    id: 'vishwajeet-phone',
   },
 };

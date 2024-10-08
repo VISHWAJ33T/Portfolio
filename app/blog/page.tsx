@@ -11,7 +11,7 @@ import { seo } from '@/lib/meta';
 export const metadata: Metadata = seo({
   title: 'Blog',
   description:
-    'Blog posts by Bona Brian Siagian. Here I share some thoughts, stories, information, and more about software development.',
+    'Blog posts by Vishwajeet. Here I share some thoughts, stories, information, and more about software development.',
   keywords: [
     'blog',
     'story',

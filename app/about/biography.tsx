@@ -11,15 +11,11 @@ const Biography = () => {
     <>
       <p>Hi there! Thanks for visiting my digital home on the internet.</p>
       <p>
-        I'm Bona Brian Siagian, a Software Engineer with a focus on delivery
+        I'm Vishwajeet Yadav, a Software Developer with a focus on delivery
         innovative digital solutions that drive business value. I am currently
-        working at <Link href="https://investree.id">Investree</Link>, a
-        well-regarded company located in{' '}
-        <Link href="https://www.google.com/maps/place/Jakarta,+Daerah+Khusus+Ibukota+Jakarta/@-6.2293866,106.6890864,11z">
-          Jakarta, Indonesia
-        </Link>
-        , where I have the opportunity to put my skills to work on a daily
-        basis.
+        working remotely at{' '}
+        <Link href="https://themoondevs.com">TheMoonDevs</Link>, where I have
+        the opportunity to put my skills to work on a daily basis.
       </p>
       <p>
         I have a wealth of experience in crafting scalable software systems that
@@ -39,7 +35,7 @@ const Biography = () => {
         organizations.
       </p>
       <p>
-        In my role as a Software Engineer, I take a charge of designing,
+        In my role as a Full-Stack Developer, I take a charge of designing,
         developing, and maintaining software that meets both technical
         specifications and business requirements. I understand the importance of
         delivering high-quality products that not only meet technical
@@ -80,7 +76,7 @@ const Biography = () => {
       <p>
         Questions or collaborations? Reach out to me at{' '}
         <Link
-          href={`mailto:${SITE.author.email}?subject=Hi Bona!`}
+          href={`mailto:${SITE.author.email}?subject=Hi Vishwajeet!`}
           className={cn('underline')}
         >
           {SITE.author.email}
@@ -107,7 +103,7 @@ const Biography = () => {
           <LinkedIn className={cn('size-5')} />
         </Link>
         <Link
-          href={`mailto:${SITE.author.email}?subject=Hi Bona!`}
+          href={`mailto:${SITE.author.email}?subject=Hi Vishwajeet!`}
           className={cn(
             'text-muted-foreground transition-colors duration-200',
             'hover:text-foreground',

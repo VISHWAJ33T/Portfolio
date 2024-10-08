@@ -43,7 +43,7 @@ const AboutPage = () => {
               width={256}
               height={256}
               placeholder="blur"
-              blurDataURL="/media/bonabrian/bonabrian-small.jpg"
+              blurDataURL="/media/me/profile-small.jpg"
               className={cn(
                 'rounded-full object-cover transition-all duration-300',
                 'xl:rounded-xl',
@@ -54,7 +54,7 @@ const AboutPage = () => {
             <div className={cn('flex flex-col items-center py-2')}>
               <h3 className={cn('font-cal text-xl')}>{SITE.author.name}</h3>
               <h4 className={cn('font-cal text-muted-foreground')}>
-                Software Engineer
+                Full-Stack Developer
               </h4>
             </div>
             <OpenForHire isOpenForHire={isAvailableForHire} />

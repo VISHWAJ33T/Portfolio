@@ -24,30 +24,30 @@ interface Site {
 
 export const BASE_URL =
   env.NODE_ENV === 'production'
-    ? 'https://bonabrian.com'
+    ? 'https://vishwaj33t.vercel.app'
     : 'http://localhost:3000';
 
 export const SITE: Site = {
   url: BASE_URL,
-  name: "bonabrian's portfolio",
-  title: 'Bona Brian Siagian',
+  name: "Vishwajeet's portfolio",
+  title: 'Vishwajeet Yadav',
   description:
     'Passionate Software engineer who focused on solving problems with digital products.',
   author: {
-    name: 'Bona Brian Siagian',
-    url: 'https://bonabrian.com',
-    email: 'bonabrian.dev@gmail.com',
-    linkedIn: 'https://www.linkedin.com/in/bonabrian',
+    name: 'Vishwajeet Yadav',
+    url: 'https://vishwaj33t.vercel.appm',
+    email: 'vishwajeety14122@gmail.com',
+    linkedIn: 'https://www.linkedin.com/in/vishwaj33t',
     github: {
-      username: 'bonabrian',
-      url: 'https://www.github.com/bonabrian',
+      username: 'vishwaj33t',
+      url: 'https://www.github.com/vishwaj33t',
     },
-    avatar: '/media/bonabrian/bonabrian.jpg',
-    twitter: '@bonabrian_',
+    avatar: '/media/me/profile.jpg',
+    twitter: '@vishwajeet',
   },
   keywords: [
-    'bonabrian',
-    'Bona Brian Siagian',
+    'vishwajeet',
+    'Vishwajeet Yadav',
     'developer',
     'portfolio',
     'developer portfolio website',

@@ -36,9 +36,9 @@ const Header = () => {
               className={cn('flex items-center justify-center gap-2')}
             >
               {theme === 'dark' ? (
-                <LogoDark className={cn('h-7')} />
+                <LogoDark className={cn('h-7 w-7')} />
               ) : (
-                <LogoLight className={cn('h-7')} />
+                <LogoLight className={cn('h-7 w-7')} />
               )}
               <span
                 className={cn(
@@ -46,7 +46,7 @@ const Header = () => {
                   'md:flex',
                 )}
               >
-                bonabrian
+                VISHWAJ33T
               </span>
             </Link>
             <nav className={cn('hidden', 'md:flex')}>

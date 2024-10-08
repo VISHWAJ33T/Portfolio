@@ -29,9 +29,9 @@ const Hero = () => {
           >
             <span>
               Hi, I'm{' '}
-              <span className={cn('text-primary')}>Bona Brian Siagian</span>
+              <span className={cn('text-primary')}>Vishwajeet Yadav</span>
             </span>
-            <span>Software Engineer</span>
+            <span>Full-Stack Developer</span>
           </motion.h1>
           <motion.p
             className={cn(

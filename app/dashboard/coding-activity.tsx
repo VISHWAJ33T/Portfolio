@@ -27,8 +27,8 @@ const CodingActivity = () => {
 
       if (lastModifiedDate) {
         const zonedDate = toZonedTime(
-          fromZonedTime(lastModifiedDate, 'Asia/Jakarta'),
-          'Asia/Jakarta',
+          fromZonedTime(lastModifiedDate, 'Asia/Kolkata'),
+          'Asia/Kolkata',
         );
 
         const distanceToNow = formatDistanceToNow(zonedDate, {
@@ -84,7 +84,7 @@ const CodingActivity = () => {
       isLoading={isLoading}
       appendix={
         <Link
-          href="https://wakatime.com/@bonabrian"
+          href="https://wakatime.com/@vishwaj33t"
           className={cn(
             'text-sm text-muted-foreground transition-all duration-200',
             'hover:underline',

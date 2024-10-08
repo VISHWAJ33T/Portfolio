@@ -7,7 +7,7 @@ import { type UserConfig } from '@commitlint/types';
  * fix: a bug fix
  * perf: a code change that improves performance
  * refactor: a code change that neither fixes a bug nor adds a feature
- * static: add or update static files
+ * revert: revert to a commit
  * style: changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
  * test: adding missing tests or correcting existing tests
  * chore: updating grunt tasks etc; no production code change

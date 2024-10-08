@@ -23,7 +23,7 @@ export const DELETE = async (
       );
     }
 
-    const entry = await findEntryById(Number(params.id));
+    const entry = await findEntryById(params.id);
 
     if (!entry) {
       return response<APIErrorResponse>(
@@ -42,7 +42,7 @@ export const DELETE = async (
       return response<APIErrorResponse>({ message: 'Forbidden' }, 403);
     }
 
-    await deleteEntry(Number(params.id));
+    await deleteEntry(params.id);
 
     return response(null, 204);
   } catch (error) {

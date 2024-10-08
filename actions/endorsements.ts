@@ -47,7 +47,7 @@ export const isEndorsed = async ({
 }): Promise<boolean> => {
   const endorsementCount = await db.endorsement.count({
     where: {
-      skill_id: skillId,
+      skill_id: skillId.toString(),
       userId,
     },
   });
@@ -64,7 +64,7 @@ export const createEndorsement = async ({
 }) => {
   await db.endorsement.create({
     data: {
-      skill_id: skillId,
+      skill_id: skillId.toString(),
       userId,
     },
   });

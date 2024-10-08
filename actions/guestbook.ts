@@ -37,13 +37,13 @@ export const addGuestbookEntry = async ({
   });
 };
 
-export const findEntryById = async (id: number) => {
+export const findEntryById = async (id: string) => {
   return await db.guestbook.findFirst({
     where: { id },
     select: { id: true, body: true, created_at: true, user: true },
   });
 };
 
-export const deleteEntry = async (id: number) => {
+export const deleteEntry = async (id: string) => {
   await db.guestbook.delete({ where: { id } });
 };

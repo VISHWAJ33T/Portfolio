@@ -9,7 +9,7 @@ const Footer = () => {
   const { slug, modifiedDate } = usePostContext();
   const modifiedTime = formatDate(modifiedDate);
 
-  const editUrl = `https://github.com/vishwaj33t/Portfolio/blob/v4/content/posts/${slug}.mdx?plain=1`;
+  const editUrl = `https://github.com/vishwaj33t/Portfolio/blob/v3/content/posts/${slug}.mdx?plain=1`;
 
   return (
     <Container>

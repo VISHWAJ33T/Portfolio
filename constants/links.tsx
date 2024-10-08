@@ -9,7 +9,6 @@ import {
   Home,
   LinkedIn,
   Medal,
-  Monitor,
   Pencil,
   RSS,
   Twitter,
@@ -28,7 +27,7 @@ export const ROUTES = {
   about: '/about',
   dashboard: '/dashboard',
   resume: '/resume',
-  uses: '/uses',
+  // uses: '/uses',
 };
 
 export const NAV_LINKS: NavLink[] = [
@@ -148,20 +147,20 @@ export const COMMAND_PAGES: CommandMenu[] = [
     type: 'PAGE',
     closeOnSelect: true,
   },
-  {
-    label: 'Uses',
-    href: ROUTES.uses,
-    icon: <Monitor />,
-    isExternal: false,
-    eventName: 'Pages: Uses',
-    type: 'PAGE',
-    closeOnSelect: true,
-  },
+  // {
+  //   label: 'Uses',
+  //   href: ROUTES.uses,
+  //   icon: <Monitor />,
+  //   isExternal: false,
+  //   eventName: 'Pages: Uses',
+  //   type: 'PAGE',
+  //   closeOnSelect: true,
+  // },
 ];
 export const COMMAND_SOCIAL_MEDIA: CommandMenu[] = [
   {
     label: 'Email',
-    href: `mailto:${SITE.author.email}?subject=Hi Bona!`,
+    href: `mailto:${SITE.author.email}?subject=Hi Vishwajeet!`,
     icon: <Email />,
     isExternal: true,
     eventName: 'Contact: Email',
@@ -222,10 +221,10 @@ export const FOOTER_LINKS = [
       title: 'Snippets',
       path: ROUTES.snippets,
     },
-    {
-      title: 'Uses',
-      path: ROUTES.uses,
-    },
+    // {
+    //   title: 'Uses',
+    //   path: ROUTES.uses,
+    // },
   ],
   [
     {

@@ -1,6 +1,7 @@
 import {
   Android,
   Bootstrap,
+  Firebase,
   Git,
   JavaScript,
   Jest,
@@ -8,8 +9,10 @@ import {
   Kotlin,
   Laravel,
   Markdown,
+  MongoDb,
   MySQL,
   NextJS,
+  NodeJs,
   NuxtJS,
   PHP,
   PostgreSQL,
@@ -23,6 +26,7 @@ import {
   Supabase,
   TailwindCSS,
   TypeScript,
+  Vercel,
   VueJS,
 } from '@/components/shared/icons';
 import { cn } from '@/lib/utils';
@@ -52,8 +56,12 @@ export const STACKS: Stack = {
   RabbitMQ: <RabbitMQ className={cn('size-4 fill-[#FF6600]')} />,
   Jest: <Jest className={cn('size-4 fill-[#C21325]')} />,
   Git: <Git className={cn('size-4 fill-[#F05032]')} />,
+  Firebase: <Firebase className={cn('size-4 fill-[#FFCA28]')} />,
   Supabase: <Supabase className={cn('size-4 fill-[#3FCF8E]')} />,
   JQuery: <JQuery className={cn('size-4 fill-[#0769AD]')} />,
   Bootstrap: <Bootstrap className={cn('size-4 fill-[#7952B3]')} />,
   Android: <Android className={cn('size-4 fill-[#34A853]')} />,
+  MongoDb: <MongoDb className={cn('size-4 fill-[#599636]')} />,
+  NodeJs: <NodeJs className={cn('size-4 fill-[#68A063]')} />,
+  Vercel: <Vercel className={cn('size-4 fill-black', 'dark:fill-white')} />,
 };

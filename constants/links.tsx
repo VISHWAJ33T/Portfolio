@@ -157,6 +157,7 @@ export const COMMAND_PAGES: CommandMenu[] = [
   //   closeOnSelect: true,
   // },
 ];
+
 export const COMMAND_SOCIAL_MEDIA: CommandMenu[] = [
   {
     label: 'Email',

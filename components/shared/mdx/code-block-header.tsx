@@ -3,7 +3,7 @@ import type { DetailedHTMLProps, HTMLAttributes } from 'react';
 
 import { cn } from '@/lib/utils';
 
-import { JavaScript, Kotlin, TypeScript } from '../icons';
+import { JavaScript, TypeScript } from '../icons';
 
 interface CodeBlockHeaderProps
   extends DetailedHTMLProps<HTMLAttributes<HTMLElement>, HTMLElement> {
@@ -28,8 +28,6 @@ const CodeBlockHeader = ({
       case 'js':
         return <JavaScript className={cn('size-4')} />;
       case 'kotlin':
-      case 'kt':
-        return <Kotlin className={cn('size-4')} />;
 
       default:
         return <Code className={cn('size-4')} />;

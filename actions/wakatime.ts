@@ -15,12 +15,9 @@ const STATS_ENDPOINT = 'https://wakatime.com/api/v1/users/current/stats';
 const ALLOWED_LANGUAGES = [
   'TypeScript',
   'JavaScript',
-  'Kotlin',
-  'PHP',
-  'Vue.js',
   'React.js',
-  'Java',
-  'Ruby',
+  'html',
+  'css',
 ];
 
 const generateBasicAuthorizationBase64 = (): string =>

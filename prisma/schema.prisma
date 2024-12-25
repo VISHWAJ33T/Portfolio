@@ -43,7 +43,7 @@ model Session {
 
 model SkillCategory {
   id                 String  @id @default(cuid()) @map("_id")
-  name               String
+  name               String  @unique
   skills_in_category Skill[]
 
   @@map("skill_categories")

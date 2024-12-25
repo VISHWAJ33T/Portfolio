@@ -9,59 +9,44 @@ import TechStacks from './tech-stacks';
 const Biography = () => {
   return (
     <>
-      <p>Hi there! Thanks for visiting my digital home on the internet.</p>
+      <p>Hi there! Welcome to my digital space on the web. 👋</p>
       <p>
-        I'm Vishwajeet Yadav, a Software Developer with a focus on delivery
-        innovative digital solutions that drive business value. I am currently
-        working remotely at{' '}
-        <Link href="https://themoondevs.com">TheMoonDevs</Link>, where I have
-        the opportunity to put my skills to work on a daily basis.
+        I'm <strong>Vishwajeet Yadav</strong>, a Software Developer passionate
+        about building innovative and scalable digital solutions that create
+        real-world impact. Currently, I work remotely at{' '}
+        <Link href="https://themoondevs.com">TheMoonDevs</Link>, where I design
+        and develop full-stack applications while integrating advanced
+        technologies like AI and Web3.
       </p>
       <p>
-        I have a wealth of experience in crafting scalable software systems that
-        meet both technical and business requirements, utilizing a range of
-        programming languages such as{' '}
-        <Link href="https://kotlinlang.org/">Kotlin</Link>,{' '}
-        <Link href="https://www.php.net/">PHP</Link>,{' '}
-        <Link href="https://www.javascript.com/">JavaScript</Link>, and{' '}
-        <Link href="https://www.typescriptlang.org/">TypeScript</Link>.
-        Leveraging my proficiency in backend frameworks like{' '}
-        <Link href="https://spring.io/">Spring</Link> and{' '}
-        <Link href="https://laravel.com/">Laravel</Link>, coupled with expertise
-        in frontend frameworks such as{' '}
-        <Link href="https://reactjs.org/">React</Link> and{' '}
-        <Link href="https://vuejs.org/">Vue</Link>, allows me to deliver
-        efficient and effective software solutions that meet the unique needs of
-        organizations.
+        With hands-on experience in programming languages such as{' '}
+        <Link href="https://www.typescriptlang.org/">TypeScript</Link>,{' '}
+        <Link href="https://www.javascript.com/">JavaScript</Link>, and
+        frameworks like <Link href="https://reactjs.org/">React</Link> and{' '}
+        <Link href="https://nextjs.org/">Next.js</Link>, I craft efficient,
+        user-centric software systems. My backend expertise includes
+        technologies like <Link href="https://nodejs.org/">Node.js</Link>,{' '}
+        <Link href="https://www.prisma.io/">Prisma ORM</Link>, and{' '}
+        <Link href="https://graphql.org/">GraphQL</Link>, enabling seamless
+        communication between systems and ensuring top-notch performance.
       </p>
       <p>
-        In my role as a Full-Stack Developer, I take a charge of designing,
-        developing, and maintaining software that meets both technical
-        specifications and business requirements. I understand the importance of
-        delivering high-quality products that not only meet technical
-        requirements, but also provide tangible business value. To achieve this,
-        I work closely with organizations to understand their unique needs and
-        requirements, and I utilize my technical expertise to deliver customized
-        solutions that drive business outcomes.
+        At TheMoonDevs, I've engineered projects involving real-time
+        communication, AI-powered features, and smart contract integrations. By
+        automating workflows, optimizing performance, and delivering technical
+        SEO enhancements, I help organizations achieve their goals through
+        tailored solutions.
       </p>
       <p>
-        I consider myself a curious and inquisitive person, always eager to
-        learn and improve my skills. In my free time, I enjoy working on
-        personal side projects, as it provides me with an opportunity to explore
-        new technologies and further my knowledge and expertise. I am also a
-        continuous learner, and I actively seek out new learning opportunities
-        in order to stay up-to-date with the latest industry advancements.
+        Outside of coding, I'm an avid enthusiast of{' '}
+        <strong>video games</strong> 🎮, <strong>anime</strong> 📺, and{' '}
+        <strong>football</strong> ⚽. These hobbies not only keep me energized
+        but also inspire creativity and balance in my life. I believe a bug-free
+        mind leads to bug-free code!
       </p>
       <p>
-        Besides hacking, I also have a strong appreciation for video games and
-        music. I find that these activities provide an important balance to my
-        professional life, allowing me to relax and recharge after a long day at
-        work. I believe that maintaining a healthy work-life balance is is the
-        key to keeping both my code and my spirits bug-free! 🎮🎶
-      </p>
-      <p>
-        If you're interested in learning more about my professional background
-        and qualifications, I encourage you to review{' '}
+        If you'd like to learn more about my professional background, feel free
+        to check out{' '}
       </p>
       <Link href={ROUTES.resume} className={cn('text-inherit')}>
         <Button variant="shadow" className={cn('gap-x-1')}>

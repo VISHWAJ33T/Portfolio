@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 
 import Container from '@/components/shared/container';
-import { SITE } from '@/constants';
 import { seo } from '@/lib/meta';
 import { cn } from '@/lib/utils';
 
@@ -11,7 +10,7 @@ import HighlightedProjects from './highlighted-projects';
 import LatestPosts from './latest-posts';
 
 export const metadata: Metadata = seo({
-  title: SITE.title,
+  title: 'Home',
   url: '/',
 });
 
